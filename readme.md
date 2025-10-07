@@ -1,4 +1,4 @@
-# Charybdis 3x5 with Dongle and ZMK STUDIO
+# Charybdis 3x5 with Dongle and ZMK STUDIO1
 
 ![3x6](https://github.com/devpew/charybdis-3-5-dongle-prospector-studio/blob/main/img/111.JPG)
 

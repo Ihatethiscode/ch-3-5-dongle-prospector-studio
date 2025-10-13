@@ -194,8 +194,6 @@ combos:
   k: {t: Base, h: toggle}
 - p: [27, 28]
   k: {t: Function, h: sticky}
-- p: [5, 9]
-  k: {t: Game, h: toggle}
 - p: [1, 2]
   k: ESCAPE
 - p: [2, 3]
@@ -204,3 +202,13 @@ combos:
   k: Ctl+ BACK SPACE
 - p: [0, 4]
   k: ZMK Studio
+- p: [11, 12]
+  k: F8
+  l: [Symbol]
+- p: [12, 13]
+  k: CAPS
+- p: [22, 21]
+  k: KP DOT
+  l: [Symbol]
+- p: [31, 32]
+  k: ENTER

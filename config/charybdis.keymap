@@ -138,11 +138,6 @@
             bindings = <&sl FUNCTION>;
         };
 
-        combo_genshin {
-            key-positions = <5 9>;
-            bindings = <&to GAME>;
-        };
-
         combo_esc {
             key-positions = <1 2>;
             bindings = <&kp ESCAPE>;
@@ -161,6 +156,36 @@
         combo_unlock {
             key-positions = <0 4>;
             bindings = <&studio_unlock>;
+        };
+
+        f8 {
+            bindings = <&kp F8>;
+            key-positions = <11 12>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <10>;
+            layers = <2>;
+        };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <12 13>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <10>;
+        };
+
+        dot {
+            bindings = <&kp KP_DOT>;
+            key-positions = <22 21>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <10>;
+            layers = <2>;
+        };
+
+        ent {
+            bindings = <&kp ENTER>;
+            key-positions = <31 32>;
+            timeout-ms = <500>;
+            require-prior-idle-ms = <10>;
         };
     };
 

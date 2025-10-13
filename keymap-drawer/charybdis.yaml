@@ -24,18 +24,18 @@ layers:
   - Z
   - {t: X, h: Ctl+ X}
   - {t: C, h: Ctl+ C}
-  - V
-  - {t: B, h: Ctl+ V}
+  - {t: V, h: Ctl+ V}
+  - B
   - N
   - M
   - ','
   - .
   - /
-  - LCTRL
+  - '&TD_2'
+  - SPACE
   - Symbol
-  - {t: RET, h: LGUI}
-  - {t: SPACE, h: Number}
-  - BSPC
+  - '&TD_4'
+  - RIGHT SHIFT
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -73,41 +73,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbol:
-  - ''
-  - ''
-  - '{'
-  - '}'
-  - '|'
-  - '`'
-  - '~'
-  - <
-  - '>'
-  - \
-  - ''
-  - ''
-  - (
-  - )
-  - ':'
-  - +
-  - '-'
-  - /
-  - '*'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - PG UP
+  - HOME
+  - UP ARROW
+  - END
+  - Alt+Ctl+ DELETE
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - PG DN
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
   - ''''
-  - ''
-  - ''
+  - '='
+  - '-'
+  - +
+  - KP SLASH
+  - '*'
   - '['
   - ']'
-  - '?'
-  - '&'
-  - '='
-  - _
+  - $
   - .
-  - '"'
-  - ''
+  - Alt+ PRINT SCREEN
+  - BACK SPACE
+  - DELETE
   - {type: held}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
+  - RIGHT CONTROL
+  - RIGHT SHIFT
   Number:
   - ''
   - '7'
@@ -131,7 +131,7 @@ layers:
   - RGUI
   - ''
   - '1'
-  - '2'
+  - {t: '2', type: held}
   - '3'
   - Ctl+ -
   - Ctl+ =
@@ -142,34 +142,34 @@ layers:
   - .
   - '0'
   - SPACE
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   Function:
-  - Ctl+Alt+ DEL
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F6
   - F7
   - F8
   - F9
   - F10
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - F4
-  - F5
-  - F6
-  - F11
   - ''
   - LCTRL
   - LSHFT
   - LALT
   - LGUI
   - ''
-  - F1
-  - F2
-  - F3
+  - F11
   - DEV TOOLS
+  - ''
+  - ''
   - ''
   - ''
   - {type: held}

@@ -58,10 +58,10 @@ layers:
   - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Number
-  - Symbol
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Symbol
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,8 +130,8 @@ layers:
   - {t: RIGHT, h: RALT}
   - RGUI
   - ''
-  - '1'
-  - {t: '2', type: held}
+  - {t: '1', type: held}
+  - '2'
   - '3'
   - Ctl+ -
   - Ctl+ =

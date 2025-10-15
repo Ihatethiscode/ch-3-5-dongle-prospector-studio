@@ -209,7 +209,7 @@
             bindings = <
   &trans    &trans    &trans     &trans     &trans      &trans  &trans    &trans    &trans    &trans
   &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans      &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-  &trans    &mo 3     &trans     &trans     &mo 2       &trans  &trans    &trans    &trans    &trans
+  &trans    &mo 3     &trans     &trans     &mo 2       &trans  &mkp MB4  &trans    &mkp MB5  &trans
                       &mkp MB1   &mkp MB2   &mkp MB3    &trans  &trans
             >;
         };

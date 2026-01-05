@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHFT}
   - {t: L, h: RALT}
   - {t: ;, h: LGUI}
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - {t: X, h: Ctl+ X}
   - {t: C, h: Ctl+ C}
   - {t: V, h: Ctl+ V}
@@ -41,7 +41,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Function
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -51,16 +51,16 @@ layers:
   - LALT
   - LSHFT
   - LCTRL
-  - {t: ▽, type: trans}
+  - Number
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Number
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
   - Symbol
   - {t: ▽, type: trans}
   - BACK
@@ -101,7 +101,7 @@ layers:
   - '['
   - ']'
   - $
-  - .
+  - LEFT WIN
   - Alt+ PRINT SCREEN
   - BACK SPACE
   - DELETE
@@ -123,14 +123,14 @@ layers:
   - {t: '4', h: LALT}
   - {t: '5', h: LSHFT}
   - {t: '6', h: LCTRL}
-  - ''
+  - {type: held}
   - ''
   - {t: LEFT, h: RCTRL}
   - {t: DOWN, h: RSHFT}
   - {t: RIGHT, h: RALT}
   - RGUI
   - ''
-  - {t: '1', type: held}
+  - '1'
   - '2'
   - '3'
   - Ctl+ -
@@ -149,7 +149,7 @@ layers:
   - F2
   - F3
   - F4
-  - F5
+  - {t: F5, type: held}
   - ''
   - ''
   - ''
@@ -172,15 +172,15 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - {type: held}
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  Game: [ESCAPE, Q, W, E, R, '', '', '', '', '', LCTRL, A, S, D, F, '', '&mkp MB1', '&mkp MB2', '&mkp MB3', '', LSHIFT, Z, X, C, V, '1', '2', '3', '4', '5', LALT,
+  - ''
+  - ''
+  Game: [ESCAPE, Q, W, E, R, '', '', '', '', '', LCTRL, A, S, D, F, '', '&mkp MB1', '&mkp MB2', '&mkp MB3', A, LSHIFT, Z, X, C, V, '1', '2', '3', '4', '5', LALT,
     SPACE, M, T, B]
   Reset: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BOOT LDR, BOOT LDR, '']
 combos:

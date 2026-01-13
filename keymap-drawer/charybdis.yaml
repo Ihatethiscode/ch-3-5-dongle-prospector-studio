@@ -212,3 +212,5 @@ combos:
   l: [Symbol]
 - p: [31, 32]
   k: ENTER
+- p: [6, 7]
+  k: {t: Base, h: toggle}

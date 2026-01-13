@@ -209,7 +209,7 @@
             bindings = <
   &trans     &trans     &trans     &trans     &mo 4       &trans  &trans    &trans    &trans    &trans
   &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &mo 3       &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &mo 2       &trans  &mkp MB4  &trans    &mkp MB5  &trans
+  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &mo 2       &trans  &mkp MB4  &tog 0    &mkp MB5  &trans
                         &mkp MB1   &mkp MB2   &mkp MB3    &trans  &trans
             >;
         };

@@ -64,7 +64,7 @@ layers:
   - Symbol
   - {t: ▽, type: trans}
   - BACK
-  - {t: ▽, type: trans}
+  - {t: Base, h: toggle}
   - FWD
   - {t: ▽, type: trans}
   - '&mkp MB1'

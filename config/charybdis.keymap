@@ -206,6 +206,11 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        lay4 {
+            bindings = <&mo 4>;
+            key-positions = <33 34>;
+        };
     };
 
     chosen { zmk,physical-layout = &charybdis_5col_layout; };

@@ -40,6 +40,7 @@
 
     trackball: trackball@0 {
         status = "okay";
+        invert-y; // Inverts vertical movement
         compatible = "pixart,pmw3610-alt";
         reg = <0>;
         spi-max-frequency = <2000000>;

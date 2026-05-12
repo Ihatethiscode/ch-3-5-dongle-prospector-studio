@@ -235,7 +235,7 @@
   &trans     &trans     &to 0      &trans     &mo 2       &trans  &trans    &to 0     &trans    &trans
   &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &mo 3       &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
   &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &mo 4       &trans  &mkp MB4  &to 0     &mkp MB5  &trans
-                        &mkp MB1   &mkp MB2   &mkp MB3    &trans  &trans
+                        &mkp MB1   &mkp MB2   &mkp MB3    &trans  &to 0
             >;
         };
 
